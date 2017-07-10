@@ -122,7 +122,7 @@ public string SimpleProperty
 /// <summary> 
 /// Register the SimpleProperty property so it is known in the class.
 /// </summary> 
-public static readonly PropertyDataSimplePropertyProperty = RegisterProperty("SimpleProperty", typeof(string), "Simple property");
+public static readonly SimplePropertyProperty = RegisterProperty("SimpleProperty", typeof(string), "Simple property");
 ```
 
 ### Properties with property change callback
